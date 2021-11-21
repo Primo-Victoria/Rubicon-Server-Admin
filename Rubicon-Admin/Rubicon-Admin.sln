@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon-Admin", "Rubicon-Admin\Rubicon-Admin.csproj", "{F4FD2D4E-EC3F-4B4C-8835-ED6DA9589A5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rubicon-Admin", "Rubicon-Admin\Rubicon-Admin.csproj", "{F4FD2D4E-EC3F-4B4C-8835-ED6DA9589A5D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{68209B2E-F02D-48AC-A72D-0341AAB7AB00}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon-Admin.DataAccess", "Rubicon-Admin.DataAccess\Rubicon-Admin.DataAccess.csproj", "{253BD473-CB5C-482C-9721-1D710C586A19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon-Admin.DataAccess.Croe", "Rubicon-Admin.DataAccess.Croe\Rubicon-Admin.DataAccess.Croe.csproj", "{21108093-C14E-4212-BEC8-6A99671BAA6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon-Admin.BuisnessLogic", "Rubicon-Admin.BuisnessLogic\Rubicon-Admin.BuisnessLogic.csproj", "{40B9DD4C-669D-4CD0-9596-F281A8BF0EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon-Admin.BuisnessLogic.Core", "Rubicon-Admin.BuisnessLogic.Core\Rubicon-Admin.BuisnessLogic.Core.csproj", "{717D02AC-A843-4369-9636-F0321AC67D6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{21108093-C14E-4212-BEC8-6A99671BAA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21108093-C14E-4212-BEC8-6A99671BAA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21108093-C14E-4212-BEC8-6A99671BAA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B9DD4C-669D-4CD0-9596-F281A8BF0EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B9DD4C-669D-4CD0-9596-F281A8BF0EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B9DD4C-669D-4CD0-9596-F281A8BF0EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B9DD4C-669D-4CD0-9596-F281A8BF0EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717D02AC-A843-4369-9636-F0321AC67D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717D02AC-A843-4369-9636-F0321AC67D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717D02AC-A843-4369-9636-F0321AC67D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717D02AC-A843-4369-9636-F0321AC67D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +60,8 @@ Global
 		{C852A039-9394-43AD-8903-026EE5024C74} = {68209B2E-F02D-48AC-A72D-0341AAB7AB00}
 		{253BD473-CB5C-482C-9721-1D710C586A19} = {24EB048D-6076-45CE-A21B-F9E359FB84D5}
 		{21108093-C14E-4212-BEC8-6A99671BAA6D} = {24EB048D-6076-45CE-A21B-F9E359FB84D5}
+		{40B9DD4C-669D-4CD0-9596-F281A8BF0EE4} = {912FDCD1-169D-40FB-9267-89EA38E69EA9}
+		{717D02AC-A843-4369-9636-F0321AC67D6A} = {912FDCD1-169D-40FB-9267-89EA38E69EA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE1AF553-3640-4053-86C1-43498659BF94}
