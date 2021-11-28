@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon-Admin.BuisnessLogic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rubicon-Admin.BuisnessLogic.Core", "Rubicon-Admin.BuisnessLogic.Core\Rubicon-Admin.BuisnessLogic.Core.csproj", "{717D02AC-A843-4369-9636-F0321AC67D6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4B0CF2A5-899D-431E-910D-5D387EFB23B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{55F8EDBE-2A1D-4B05-9BF1-7C6F60E3D952}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{717D02AC-A843-4369-9636-F0321AC67D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{717D02AC-A843-4369-9636-F0321AC67D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{717D02AC-A843-4369-9636-F0321AC67D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F8EDBE-2A1D-4B05-9BF1-7C6F60E3D952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F8EDBE-2A1D-4B05-9BF1-7C6F60E3D952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F8EDBE-2A1D-4B05-9BF1-7C6F60E3D952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F8EDBE-2A1D-4B05-9BF1-7C6F60E3D952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{21108093-C14E-4212-BEC8-6A99671BAA6D} = {24EB048D-6076-45CE-A21B-F9E359FB84D5}
 		{40B9DD4C-669D-4CD0-9596-F281A8BF0EE4} = {912FDCD1-169D-40FB-9267-89EA38E69EA9}
 		{717D02AC-A843-4369-9636-F0321AC67D6A} = {912FDCD1-169D-40FB-9267-89EA38E69EA9}
+		{55F8EDBE-2A1D-4B05-9BF1-7C6F60E3D952} = {4B0CF2A5-899D-431E-910D-5D387EFB23B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE1AF553-3640-4053-86C1-43498659BF94}

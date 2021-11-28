@@ -13,7 +13,7 @@ namespace Rubicon_Admin.BuisnessLogic.Core.Models
         public bool IsBoy { get; set; }
         public string PhoneNumberPrefix { get; set; }
         public string PhoneNumber { get; set; }
-        public string FristName { get; set; }
+        public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Patronymic { get; set; }
         public DateTimeOffset Birthday { get; set; }

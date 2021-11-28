@@ -18,7 +18,7 @@ namespace Rubicon_Admin.DataAccess.Croe.Models
         [Required] public string PhoneNumberPrefix { get; set; }
         [Required] public string PhoneNumber { get; set; }
         [Required, MinLength(7)] public string Password { get; set; }
-        public string FristName { get; set; }
+        public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Patronymic { get; set; }
         public DateTimeOffset Birthday { get; set; }
